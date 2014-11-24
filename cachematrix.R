@@ -1,7 +1,7 @@
 ##This is Assignement 2
 ## functions called  makeCacheMatrix   and CasheSolve
-
-## 
+## Creating special matrix that allows for the caching of the inverse
+## MakeCashmatrix creates the getters and seeters 
 
 makeCacheMatrix <- function(x = matrix()) {
   
