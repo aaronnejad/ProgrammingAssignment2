@@ -18,10 +18,13 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## determine inverse of matrix
+## creating the getters and seeters 
 
+
+
+## Return a matrix that is the inverse of 'x'
+  ## If the inverse has already been calculated the cashe solve would retrieve the inverse from the cashe. 
 cacheSolve <- function(x...) {
-  ## Return a matrix that is the inverse of 'x'
   
   m<-x$getinverse()
   if (!is.null(m){
